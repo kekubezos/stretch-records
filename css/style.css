@@ -74,7 +74,45 @@ span {
   padding: 1rem;
   border: 0.15rem solid #d2d1d1;
 }
+fieldset {
+  border: none;
+}
+.field:focus {
+  outline: 3px solid #eb3d08;
+}
 
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  font-size: 1.8rem;
+}
+
+input {
+  width: 30rem;
+  font-size: 1.6rem;
+}
+
+.form-field {
+  margin-bottom: 0.5rem;
+}
+select {
+  width: 30rem;
+  padding: 0.4rem;
+  font-size: 1.6rem;
+}
+
+button {
+  background-color: #eb3d08;
+  color: #f9faf9;
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  width: 15rem;
+  border: none;
+  cursor: pointer;
+}
 footer {
   padding-bottom: 1.6rem;
 }
