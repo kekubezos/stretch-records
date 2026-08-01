@@ -43,3 +43,34 @@ section {
   padding: 1.6rem;
   border-bottom: 0.15rem solid #4f4f4f;
 }
+.small-image img {
+  width: 100%;
+  max-width: 10rem;
+  height: auto;
+  border-radius: 12.5rem;
+}
+
+.artist-images {
+  display: flex;
+  gap: 3rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 25rem;
+}
+
+span {
+  font-weight: 700;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  padding: 1rem;
+  border: 0.15rem solid #d2d1d1;
+}
