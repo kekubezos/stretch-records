@@ -1,15 +1,21 @@
 function renderCards(artists) {
-  const cardArea = document.querySelector(".cards");
+  const container = document.querySelector(".artists");
+  container.innerHTML = ""; // clear out the hardcoded roster before rendering
 
-  for (const artist of artists) {
-    const card = document.createElement("article");
-    const title = document.createElement("h3");
-    title.textContent = artist.name;
-    const line = document.createElement("p");
-    line.textContent = `${artist.genre}, ${artist.total} of music`;
-    card.append(title, line);
-    cardArea.append(card);
-  }
+  artists.forEach((artist) => {
+    const card = document.createElement("div");
+
+    const name = document.createElement("h2");
+    name.textContent = artist.name;
+    card.appendChild(name);
+
+    const details = document.createElement("h2");
+    details.className = "song-runtime";
+    details.textContent = `${artist.genre.toUpperCase()} — ${artist.total} TOTAL RUNTIME`;
+    card.appendChild(details);
+
+    container.appendChild(card);
+  });
 }
 
 fetch("artists.json")
