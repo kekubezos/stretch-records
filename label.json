@@ -1,0 +1,34 @@
+{
+  "labels": [
+    {
+      "id": 1,
+      "name": "Stretch Records",
+      "founded": 2011,
+      "location": "Portland, OR",
+      "genre": "Independent / Alternative",
+      "description": "A boutique independent label focused on discovering and supporting emerging alternative and indie artists.",
+      "website": "https://stretchrecords.example.com",
+      "artistCount": 12
+    },
+    {
+      "id": 2,
+      "name": "Vantage Point Music",
+      "founded": 2016,
+      "location": "Austin, TX",
+      "genre": "Electronic / Synthwave",
+      "description": "A digital-first label built around electronic producers and synth-driven acts.",
+      "website": "https://vantagepointmusic.example.com",
+      "artistCount": 8
+    },
+    {
+      "id": 3,
+      "name": "Ironwood Sound",
+      "founded": 2005,
+      "location": "Nashville, TN",
+      "genre": "Roots / Americana",
+      "description": "A longstanding label championing Americana, folk, and roots songwriters.",
+      "website": "https://ironwoodsound.example.com",
+      "artistCount": 20
+    }
+  ]
+}

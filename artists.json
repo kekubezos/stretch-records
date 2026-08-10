@@ -1,9 +1,64 @@
-[
-  { "name": "Pinkfong", "genre": "Children's music", "total": "11:31" },
-  { "name": "Adriano Celentano", "genre": "Italian pop", "total": "20:52" },
-  { "name": "Asake", "genre": "Afrobeats", "total": "14:08" },
-  { "name": "Miyagi and Andy Panda", "genre": "Hip-hop", "total": "16:21" },
-  { "name": "Johnny Cash", "genre": "Country", "total": "15:40" },
-  { "name": "Sarkodie", "genre": "Rap", "total": "5:03" },
-  { "name": "Kwesi Arthur", "genre": "Cools", "total": "6:33" }
-]
+{
+  "artists": [
+    {
+      "name": "Pinkfong",
+      "genre": "Children's music",
+      "total": "11:31",
+      "id": "wFQ8ynhnFsY"
+    },
+    {
+      "name": "Adriano Celentano",
+      "genre": "Italian pop",
+      "total": "20:52",
+      "id": "qc9OY4UZN-4"
+    },
+    {
+      "name": "Asake",
+      "genre": "Afrobeats",
+      "total": "14:08",
+      "id": "Ojw25y1bny0"
+    },
+    {
+      "name": "Miyagi and Andy Panda",
+      "genre": "Hip-hop",
+      "total": "16:21",
+      "id": "ab4ddFv1F2c"
+    },
+    {
+      "name": "Johnny Cash",
+      "genre": "Country",
+      "total": "15:40",
+      "id": "DdvoHinxUeM"
+    },
+    {
+      "name": "Sarkodie",
+      "genre": "Rap",
+      "total": "5:03",
+      "id": "hJAAs_BlqQo"
+    },
+    {
+      "name": "Kwesi Arthur",
+      "genre": "Cools",
+      "total": "6:33",
+      "id": "iS-xA-bDT4g"
+    },
+    {
+      "name": "KEKELI NORGBEY",
+      "genre": "Pop",
+      "id": "elAA1RETqO0"
+    },
+    {
+      "name": "Nadia Sarpong",
+      "genre": "Skelewu",
+      "total": {},
+      "id": "LiQTRv9pO0M"
+    },
+    {
+      "name": "Chef Manefski",
+      "genre": "Dancehall",
+      "total": {},
+      "id": "LBZ-2_G3EgI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
