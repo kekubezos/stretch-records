@@ -26,14 +26,6 @@ console.log(JSON.stringify(artist)); // Convert the artist object to a JSON stri
 console.log(JSON.parse(JSON.stringify(artist)).genre); // Convert the JSON string back to an object
 */
 
-document.querySelector("#freeze").addEventListener("click", () => {
-  const until = Date.now() + 5000;
-  while (Date.now() < until) {
-    // spin for five seconds
-  }
-  console.log("done");
-});
-
 // The client is the browser loading the website
 // The server is Live Server, serving files from the stretch-records project.
 // The request: fetch("artists.json") asks the server for the artists.json file containing the artists.
